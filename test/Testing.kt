@@ -68,62 +68,15 @@ class Testing() {
         )
     }
 
-
-    /*
-
-
     @Test
-    fun functionContainerHoldsValue() {
-        val valToStore: MyVar = MyVar().useVar("ValToStore")
-        val pc = 0
+    fun textParserReturnsValues(){
+        val myStart = TextParser("Start")
+        val myStop = TextParser("Stop")
+        val myRun = TextParser("run")
 
-        assertEquals(valToStore, MyContainer().store(valToStore, pc))
-
+        assertEquals("0", myStart.parse())
+        assertEquals("1", myStop.parse())
+        assertEquals("2", myRun.parse())
     }
 
-    @Test
-    fun functionContainerHoldsFunctions() {
-        val valToStore: MyVar = MyVar().useVar("ValToStore")
-        val pc = 0
-
-        assertEquals(valToStore, MyContainer().store(valToStore, pc))
-
-    }
-
-    @Test
-    fun functionContainerHoldsPC() {
-        val valToStore: MyVar = MyVar().useVar("ValToStore")
-        val pc = 0
-
-        assertEquals(pc, MyContainer().store(valToStore, pc))
-
-    }
-
-    @Test
-    fun functionContainerHoldsVariables() {
-        var pc = 0
-        val valToStore: MyVar = MyVar().useVar("ValToStore")
-
-        val container: MyContainer = MyContainer().store(valToStore, pc)
-
-        assertEquals(valToStore, container.get("var1"))
-
-    }
-
-    @Test
-    fun functionContainerExecutesNextInstruction() {
-        var pc = 0
-        val valToStore: MyVar = MyVar.useVar("ValToStore")
-
-        val functionToStore: MyVar = MyVar.usePrint()
-
-        val container: MyContainer = MyContainer.store(valToStore, pc)
-
-        container.store(functionToStore)
-
-        assertEquals("ValToStore", container.execute())
-
-    }
-
-*/
 }

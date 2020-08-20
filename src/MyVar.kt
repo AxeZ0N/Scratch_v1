@@ -1,3 +1,2 @@
-class MyVar(var data: String){
-
+class MyVar(var data: String): MyFunctions() {
 }

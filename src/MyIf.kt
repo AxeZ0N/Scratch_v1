@@ -1,4 +1,4 @@
-class MyIf(var firstVal: String, var secondVal: String, var operator: String){
+class MyIf(var firstVal: String, var secondVal: String, var operator: String): MyFunctions() {
 
     fun execute(): Boolean? {
         when (operator) {

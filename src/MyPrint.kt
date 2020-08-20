@@ -1,13 +1,11 @@
-class MyPrint(var default: Any) {
-    init {
-        when (default) {
-            default is String -> print(default)
-            default is MyVar -> {
-                val myVal = default as MyVar
-                print(myVal.data)
-            }
-        }
+class MyPrint(var default: String): MyFunctions()  {
+    constructor(default: MyVar): this(default.data){}
+
+    fun execute(): String{
+        print(default)
+        return default
     }
+
 
 
 }
