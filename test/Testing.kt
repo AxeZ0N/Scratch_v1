@@ -4,7 +4,7 @@ import kotlin.test.assertEquals
 class Testing() {
 
     @Test
-    fun varReturnsCorrectValue(){
+    fun varReturnsCorrectValue() {
         val valToStore = "Hello"
         val myObject = MyVar(valToStore)
         print(
@@ -13,7 +13,7 @@ class Testing() {
     }
 
     @Test
-    fun varIsAbleToMakeObject(){
+    fun varIsAbleToMakeObject() {
         val valToStore = "Hello"
         val varObject = MyVar(valToStore)
 
@@ -63,7 +63,9 @@ class Testing() {
     fun printHasCorrectOutput() {
         val valToPrint = "Hello print test"
         val myObject = MyPrint(valToPrint)
-        assertEquals(valToPrint,
+        print(
+            assertEquals(valToPrint, myObject.execute())
+        )
     }
 
 
