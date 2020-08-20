@@ -59,13 +59,16 @@ class Testing() {
         )
     }
 
-    /*
-
     @Test
     fun printHasCorrectOutput() {
         val valToPrint = "Hello print test"
-        assertEquals(valToPrint, MyVar().usePrint(valToPrint))
+        val myObject = MyPrint(valToPrint)
+        assertEquals(valToPrint,
     }
+
+
+    /*
+
 
     @Test
     fun functionContainerHoldsValue() {
