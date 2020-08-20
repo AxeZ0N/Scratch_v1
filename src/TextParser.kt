@@ -3,11 +3,12 @@ class TextParser(var input: String) {
     val listOfWords = listOf(input.toLowerCase())
 
     fun parse(): String {
+        val listOfWords = readLine()!!.split(" ")
         if (listOfWords.size == 1) {
             when (listOfWords[0]) {
-                "start" -> return "0"
-                "stop" -> return "1"
-                "run" -> return "2"
+                "start" -> return "Start"
+                "stop" -> return "stop"
+                "run" -> return "run"
             }
         }
 
@@ -15,26 +16,27 @@ class TextParser(var input: String) {
 
     }
 
-    fun textToFunction(listOfWords: List<String>){
-        when(listOfWords[1]){
-            "print" ->  printParser((listOfWords.subList(1,listOfWords.size)))
-            "var"   ->  varParser((listOfWords.subList(1,listOfWords.size)))
-            "if"    ->  ifParser((listOfWords.subList(1,listOfWords.size)))
+    fun textToFunction(listOfWords: List<String>): String{
+        when(listOfWords[0]){
+            "print" ->  return printParser((listOfWords.subList(1,listOfWords.size)))
+            "var"   ->  return varParser((listOfWords.subList(1,listOfWords.size)))
+            "if"    ->  return ifParser((listOfWords.subList(1,listOfWords.size)))
         }
+        return "Error in TextToFunction"
     }
 
 
-    private fun printParser(printWords: List<String>) {
-
-
-    }
-
-    private fun varParser(varWords: List<String>) {
+    private fun printParser(printWords: List<String>): String {
+        return "Print"
 
     }
 
+    private fun varParser(varWords: List<String>): String {
+        return "Var"
+    }
 
-    private fun ifParser(ifWords: List<String>) {
 
+    private fun ifParser(ifWords: List<String>): String {
+        return "if"
     }
 }

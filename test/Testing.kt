@@ -79,4 +79,21 @@ class Testing() {
         assertEquals("2", myRun.parse())
     }
 
+    @Test
+    fun textParserReturnsFunctions(){
+        val myPrint = TextParser("print")
+        val myVar = TextParser("var")
+        val myIf = TextParser("if")
+
+        assertEquals("Print", myPrint.parse())
+        assertEquals("Var", myVar.parse())
+        assertEquals("if", myIf.parse())
+    }
+
+    @Test
+    fun mainFunctionCanAcessLists(){
+        val main: Main = Main()
+        main.main()
+
+    }
 }
