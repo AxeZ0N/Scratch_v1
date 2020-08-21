@@ -1,0 +1,152 @@
+End goal:
+	User will be able to implement the following functions in terminal:
+	
+	*start_0	entry point of the function
+	
+	if_1:		equals, less than, greater than; do not implement type safety.
+	
+	print_2:	takes in one __printable__ argument and prints it to console.
+	
+	var_3: 		stores anything, any __type__; type control is up to the user.
+	
+	*stop_4:	when this argument is encountered the program will exit.
+	
+	*run: 		executes the function.
+	
+Outline:
+	User will initiate the program by typing, "run"
+	
+	User will initiate building procedure by typing "start"
+	
+	Any further instructions will be in the form of <instruction> *space* value; ie: "if 'name/integer value' '<' 'integer value' " -> etc
+	
+	The program will terminate when the code encounters "stop"
+	
+	
+Additional notes:
+	20 points will be given for each function completed.  Each function will be tested separately
+	
+	20 points will be given for the program functioning in a single, whole test.
+	
+	5 points will be given for implementing type safety
+	
+	5 points will be given for any attempt at including visual aids of the function
+	
+	5 points will be given for 'graceful failing' of any run operation. NO errors of any kind appear on console - output should be "Run operation failed: <reason>"
+	
+	5 points will be given for reading all the instructions and including the special command !ryan
+	
+	**
+
+Appendix:
+	*:		no points will be given for these functions
+	
+	**:		points will be awarded based on function of each individual component: ie: if print and stop work but type safety is not implemented, you will recieve 20 points.
+	
+	_0:		start is not the command used to run the program, it is the command used to signify the start of the program inputs
+	
+	_1:		equals, less than and, greater than are the only operators needed. Type safety for basic function is up to user.
+	
+	_2:		__printable__ argument is a loose definition. If the argument can be printed you should try to print it.
+	
+	_3:		var will store any type, any object, any number. Base type compatibility is the user's responsibility. Var is also a static type. Immutable; Unchangeable
+	
+	_4:		stop is the command used to signify the end of the script and the end of the input, inputting 'stop' will also exit the input phase
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	Step 1: build my tests
+	verify var holds the correct stored value
+	verify if uses the right operator
+	verify if uses the right comparison values
+	verify the print command outputs the correct value
+	
+	verify the function container
+	
+	outline:
+		user types start ->
+		
+		behind the scenes I make a new function container to hold the program ->
+		
+		prompt with options and formatting ->
+		
+		user types an option ->
+		
+		behind the scenes I make a new instance of a function or variable class ->
+		
+		store the new function and its values in the function container, along with some id info ->
+		
+		repeat 3 - 6 until user types stop ->
+		
+		prompt with options, user types run ->
+		
+		my function container starts from pc = 0, does each step then exits
+		
+		reset to 1
+		
+		
+	
+	
+Step 2: build functions class
+	holds raw data of functions
+	
+	
+Step 2: build function container
+	holds a member of function class
+	holds pointer to previous and next step
+	holds instructions or pointer to execute function
+	
+	
+	
+	
+	
+Interface:
+	user types start to start recording
+	user types stop to stop recording
+	user types run to run the program
+	
+	while in record mode:
+		user types <instruction> <value> <value> <value>
+			determine instruction based on # of args
+		
+
+Behind the Interface:
+	print:
+		delegate to storage in lists. Hardcode text into storage.
+	var:
+		delegate to storage in lists. Up to user to provide all variables before use.
+	if:
+		delegate to storage in lists. Hardcode value into storage.
+
+Var storage testing:
+	assert var is stored.
+	assert print statements use most recent variable.
+
+Print storage testing:
+	assert print statements actually print
+	assert print uses most recent variableq
+
+
+
+
+
+
+	
+
+	
+
+	

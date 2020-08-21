@@ -4,16 +4,8 @@
     <list default="true" id="7f61d777-b2df-4b79-b4d0-6e8fe0414725" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_v1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/META-INF/Scratch_v1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/MyContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_v1/MyContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/MyIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_v1/MyIf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/MyVar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_v1/MyVar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Scratch_v1/META-INF/Scratch_v1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Scratch_v1/META-INF/Scratch_v1.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Scratch_v1/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Scratch_v1/Testing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TextParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Testing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/Testing.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +153,7 @@
       <updated>1597937226515</updated>
       <workItem from="1597937227829" duration="18041000" />
       <workItem from="1597966658515" duration="32000" />
-      <workItem from="1597966701460" duration="4706000" />
+      <workItem from="1597966701460" duration="9937000" />
     </task>
     <task id="LOCAL-00001" summary="Testing my print function">
       <created>1597947340415</created>
@@ -184,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597957725530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="The interface is way more work than I expected">
+      <created>1597972311010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597972311010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +203,8 @@
     <MESSAGE value="Testing my print function" />
     <MESSAGE value="Writing a text parser" />
     <MESSAGE value="more PArser work" />
-    <option name="LAST_COMMIT_MESSAGE" value="more PArser work" />
+    <MESSAGE value="The interface is way more work than I expected" />
+    <option name="LAST_COMMIT_MESSAGE" value="The interface is way more work than I expected" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="359" width="1092" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597967291231">
@@ -215,6 +215,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1009" y="530" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967290548" />
+    <state x="905" y="273" key="CommitChangelistDialog2" timestamp="1597972310420">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="905" y="273" key="CommitChangelistDialog2/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597972310420" />
     <state width="2517" height="495" key="GridCell.Tab.-1.bottom" timestamp="1597967582580">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -231,22 +235,22 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="2517" height="495" key="GridCell.Tab.-1.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967582579" />
-    <state width="2517" height="402" key="GridCell.Tab.0.bottom" timestamp="1597970442105">
+    <state width="2517" height="495" key="GridCell.Tab.0.bottom" timestamp="1597977224716">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2517" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597970442105" />
-    <state width="2517" height="402" key="GridCell.Tab.0.center" timestamp="1597970442105">
+    <state width="2517" height="495" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597977224716" />
+    <state width="2517" height="495" key="GridCell.Tab.0.center" timestamp="1597977224716">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2517" height="402" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597970442105" />
-    <state width="2517" height="402" key="GridCell.Tab.0.left" timestamp="1597970442105">
+    <state width="2517" height="495" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597977224716" />
+    <state width="2517" height="495" key="GridCell.Tab.0.left" timestamp="1597977224716">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2517" height="402" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597970442105" />
-    <state width="2517" height="402" key="GridCell.Tab.0.right" timestamp="1597970442105">
+    <state width="2517" height="495" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597977224716" />
+    <state width="2517" height="495" key="GridCell.Tab.0.right" timestamp="1597977224716">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2517" height="402" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597970442105" />
+    <state width="2517" height="495" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597977224716" />
     <state width="2517" height="495" key="GridCell.Tab.1.bottom" timestamp="1597967577223">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -263,6 +267,25 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="2517" height="495" key="GridCell.Tab.1.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967577223" />
+    <state x="872" y="437" key="Vcs.Push.Dialog.v2" timestamp="1597972316426">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="872" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597972316426" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1597976544219">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597976544219" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Main.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

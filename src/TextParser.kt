@@ -2,7 +2,7 @@ import kotlin.system.exitProcess
 
 class TextParser(var input: String) {
 
-    val listOfWords = listOf(input.toLowerCase())
+    val listOfWords = input.toLowerCase().split(" ")
 
     fun parse(): String {
         if (listOfWords.size == 1) {

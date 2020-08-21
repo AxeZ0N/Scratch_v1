@@ -15,14 +15,13 @@ class Main() {
         functionCounter++
     }
 
-    fun main(){
+    fun main() {
         print("type start\n")
-        if(readLine()!!.toLowerCase() == "start"){
+        if (readLine()!!.toLowerCase() == "start") {
             print("Starting\n")
             startRecording()
         } else
             print("you need to type start\n")
-
 
 
     }
@@ -33,12 +32,16 @@ class Main() {
         var input = TextParser(rawInput).parse()
 
         while (input != "stop") {
-            when(input){
-                "var" -> {storeVar(rawInput)}
+            when (input) {
+                "var" -> {
+                    storeVar(rawInput)
+                }
+                "print" -> 
             }
 
 
-            rawInput = TextParser(readLine()!!).parse()
+            rawInput = readLine()!!
+            input = TextParser(rawInput).parse()
         }
 
         print("Stopped\n")
@@ -46,20 +49,20 @@ class Main() {
 
     private fun storeVar(rawInput: String) {
 
-        print(rawInput)
+        print(rawInput + "\n")
         val input = rawInput.split(" ")
         storeVarUnit(input[1].toString())
-        
+
     }
 
-    private fun storeVarUnit(data: String){
-        print(data)
+    private fun storeVarUnit(data: String) {
+        print(data + "\n")
         val variable = MyVar(data)
         listOfVariables.add(variable)
     }
 }
 
-fun main(){
+fun main() {
     val main = Main()
     main.main()
 
