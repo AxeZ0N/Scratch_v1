@@ -89,11 +89,4 @@ class Testing() {
         assertEquals("Var", myVar.parse())
         assertEquals("if", myIf.parse())
     }
-
-    @Test
-    fun mainFunctionCanAcessLists(){
-        val main: Main = Main()
-        main.main()
-
-    }
 }

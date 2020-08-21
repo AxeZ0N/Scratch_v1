@@ -2,90 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f61d777-b2df-4b79-b4d0-6e8fe0414725" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/META-INF/Scratch_v1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_v1/META-INF/Scratch_v1.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_v1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/META-INF/Scratch_v1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/MyContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_v1/MyContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/MyIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_v1/MyIf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_v1/MyVar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_v1/MyVar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Scratch_v1/META-INF/Scratch_v1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Scratch_v1/META-INF/Scratch_v1.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Scratch_v1/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Scratch_v1/Testing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TextParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextParser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Testing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/Testing.kt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TextParser.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Testing.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyPrint.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="50" selection-start-column="50" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyFunctions.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyVar.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" selection-start-column="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyIf.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="93" selection-start-column="93" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,53 +33,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/MyVar.kt" />
-        <option value="$PROJECT_DIR$/src/MyPrint.kt" />
-        <option value="$PROJECT_DIR$/src/MyIf.kt" />
-        <option value="$PROJECT_DIR$/src/MyFunctions.kt" />
-        <option value="$PROJECT_DIR$/src/MyContainer.kt" />
-        <option value="$PROJECT_DIR$/src/Main.kt" />
-        <option value="$PROJECT_DIR$/test/Testing.kt" />
-        <option value="$PROJECT_DIR$/src/TextParser.kt" />
-      </list>
-    </option>
+  <component name="JupyterTrust" id="d8f02e24-2662-43ce-9545-3412c4934421" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1426" />
-  </component>
+  <component name="ProjectId" id="1gNt0AvcG1tZicO42oMGpfRwWdw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Scratch_v1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratch_v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scratch_v1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratch_v1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
@@ -152,27 +52,33 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597957685937" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597964863580" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="main" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Testing.textParserReturnsFunctions">
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Scratch_v1" />
       <option name="PACKAGE_NAME" value="" />
@@ -212,33 +118,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing.varStoresCorrectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Scratch_v1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Testing" />
-      <option name="METHOD_NAME" value="varStoresCorrectValue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Testing.varStoresCorrectValue" />
       <item itemvalue="JUnit.Testing" />
       <item itemvalue="JUnit.Testing.printHasCorrectOutput" />
       <item itemvalue="JUnit.Testing.textParserReturnsValues" />
       <item itemvalue="JUnit.Testing.textParserReturnsFunctions" />
+      <item itemvalue="Kotlin.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.Testing.textParserReturnsFunctions" />
         <item itemvalue="JUnit.Testing" />
         <item itemvalue="JUnit.Testing.textParserReturnsValues" />
         <item itemvalue="JUnit.Testing.printHasCorrectOutput" />
-        <item itemvalue="JUnit.Testing.varStoresCorrectValue" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -249,7 +159,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597937226515</updated>
-      <workItem from="1597937227829" duration="16682000" />
+      <workItem from="1597937227829" duration="18041000" />
+      <workItem from="1597966658515" duration="32000" />
+      <workItem from="1597966701460" duration="4706000" />
     </task>
     <task id="LOCAL-00001" summary="Testing my print function">
       <created>1597947340415</created>
@@ -265,82 +177,18 @@
       <option name="project" value="LOCAL" />
       <updated>1597955296821</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="more PArser work">
+      <created>1597957725530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597957725530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Testing_printHasCorrectOutput - 2020.08.20 at 14h 16m 43s.xml">
-      <configuration name="Testing.printHasCorrectOutput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing_printHasCorrectOutput - 2020.08.20 at 14h 19m 30s.xml">
-      <configuration name="Testing.printHasCorrectOutput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing - 2020.08.20 at 14h 24m 40s.xml">
-      <configuration name="Testing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing_textParserReturnsValues - 2020.08.20 at 16h 26m 36s.xml">
-      <configuration name="Testing.textParserReturnsValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing_textParserReturnsValues - 2020.08.20 at 16h 26m 58s.xml">
-      <configuration name="Testing.textParserReturnsValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing_textParserReturnsValues - 2020.08.20 at 16h 28m 35s.xml">
-      <configuration name="Testing.textParserReturnsValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing - 2020.08.20 at 16h 28m 41s.xml">
-      <configuration name="Testing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing_textParserReturnsFunctions - 2020.08.20 at 16h 30m 38s.xml">
-      <configuration name="Testing.textParserReturnsFunctions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing_textParserReturnsFunctions - 2020.08.20 at 16h 30m 55s.xml">
-      <configuration name="Testing.textParserReturnsFunctions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testing_textParserReturnsFunctions - 2020.08.20 at 16h 31m 59s.xml">
-      <configuration name="Testing.textParserReturnsFunctions" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16682000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Messages" order="3" visible="true" weight="0.32869297" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32946634" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32946634" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32946634" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32869297" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.39984533" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="SciView" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -355,81 +203,147 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing my print function" />
     <MESSAGE value="Writing a text parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Writing a text parser" />
+    <MESSAGE value="more PArser work" />
+    <option name="LAST_COMMIT_MESSAGE" value="more PArser work" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyIf.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="93" selection-start-column="93" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFunctions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyContainer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyVar.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextParser.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyPrint.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Testing.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="734" y="359" width="1092" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597967291231">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="734" y="359" width="1092" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967291231" />
+    <state x="1009" y="530" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597967290548">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1009" y="530" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967290548" />
+    <state width="2517" height="495" key="GridCell.Tab.-1.bottom" timestamp="1597967582580">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="495" key="GridCell.Tab.-1.bottom/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967582580" />
+    <state width="2517" height="495" key="GridCell.Tab.-1.center" timestamp="1597967582579">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="495" key="GridCell.Tab.-1.center/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967582579" />
+    <state width="2517" height="495" key="GridCell.Tab.-1.left" timestamp="1597967582579">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="495" key="GridCell.Tab.-1.left/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967582579" />
+    <state width="2517" height="495" key="GridCell.Tab.-1.right" timestamp="1597967582579">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="495" key="GridCell.Tab.-1.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967582579" />
+    <state width="2517" height="402" key="GridCell.Tab.0.bottom" timestamp="1597970442105">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597970442105" />
+    <state width="2517" height="402" key="GridCell.Tab.0.center" timestamp="1597970442105">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="402" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597970442105" />
+    <state width="2517" height="402" key="GridCell.Tab.0.left" timestamp="1597970442105">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="402" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597970442105" />
+    <state width="2517" height="402" key="GridCell.Tab.0.right" timestamp="1597970442105">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="402" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597970442105" />
+    <state width="2517" height="495" key="GridCell.Tab.1.bottom" timestamp="1597967577223">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="495" key="GridCell.Tab.1.bottom/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967577223" />
+    <state width="2517" height="495" key="GridCell.Tab.1.center" timestamp="1597967577223">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="495" key="GridCell.Tab.1.center/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967577223" />
+    <state width="2517" height="495" key="GridCell.Tab.1.left" timestamp="1597967577223">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="495" key="GridCell.Tab.1.left/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967577223" />
+    <state width="2517" height="495" key="GridCell.Tab.1.right" timestamp="1597967577223">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="495" key="GridCell.Tab.1.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967577223" />
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7 (CompOrg) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Scratch_v1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

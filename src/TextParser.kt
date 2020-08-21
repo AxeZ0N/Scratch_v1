@@ -1,26 +1,25 @@
+import kotlin.system.exitProcess
+
 class TextParser(var input: String) {
 
     val listOfWords = listOf(input.toLowerCase())
 
     fun parse(): String {
-        val listOfWords = readLine()!!.split(" ")
         if (listOfWords.size == 1) {
             when (listOfWords[0]) {
-                "start" -> return "Start"
+                "start" -> return "start"
                 "stop" -> return "stop"
                 "run" -> return "run"
             }
         }
-
-        return textToFunction(listOfWords).toString()
-
+        return textToFunction(listOfWords)
     }
 
     fun textToFunction(listOfWords: List<String>): String{
         when(listOfWords[0]){
-            "print" ->  return printParser((listOfWords.subList(1,listOfWords.size)))
-            "var"   ->  return varParser((listOfWords.subList(1,listOfWords.size)))
-            "if"    ->  return ifParser((listOfWords.subList(1,listOfWords.size)))
+            "var" ->  {
+                return "var"
+            }
         }
         return "Error in TextToFunction"
     }

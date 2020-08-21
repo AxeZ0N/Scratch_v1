@@ -1,4 +1,7 @@
-class Main(){
+import java.lang.Exception
+import kotlin.system.exitProcess
+
+class Main() {
 
     val listOfFunctions = mutableListOf<MyFunctions>()
     var functionCounter = 0
@@ -6,35 +9,59 @@ class Main(){
     val listOfVariables = mutableListOf<MyFunctions>()
     var variableCounter = 0
 
-    fun main(args: Array<String>) {
-        print("Type start to start recording")
-        val input = readLine()!!
-
-        val myTextParser = TextParser(input)
-
-
-    }
-
     fun printToList(argument: String) {
         val myPrint = MyPrint(argument)
         listOfFunctions.add(myPrint)
         functionCounter++
     }
 
+    fun main(){
+        print("type start\n")
+        if(readLine()!!.toLowerCase() == "start"){
+            print("Starting\n")
+            startRecording()
+        } else
+            print("you need to type start\n")
+
+
+
+    }
+
+
     fun startRecording() {
-        var input = readLine()!!
+        var rawInput = readLine()!!.toLowerCase()
+        var input = TextParser(rawInput).parse()
 
-        while (TextParser(input).parse() != "1") {
+        while (input != "stop") {
+            when(input){
+                "var" -> {storeVar(rawInput)}
+            }
 
+
+            rawInput = TextParser(readLine()!!).parse()
         }
+
+        print("Stopped\n")
     }
 
-    fun stopRecording() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    private fun storeVar(rawInput: String) {
+
+        print(rawInput)
+        val input = rawInput.split(" ")
+        storeVarUnit(input[1].toString())
+        
     }
 
-    fun runProgram() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    private fun storeVarUnit(data: String){
+        print(data)
+        val variable = MyVar(data)
+        listOfVariables.add(variable)
     }
+}
+
+fun main(){
+    val main = Main()
+    main.main()
+
 
 }
