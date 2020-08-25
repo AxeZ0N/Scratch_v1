@@ -7,6 +7,7 @@ class Testing() {
     fun varReturnsCorrectValue() {
         val valToStore = "Hello"
         val myObject = MyVar(valToStore)
+
         print(
             assertEquals(valToStore, myObject.data)
         )

@@ -17,9 +17,11 @@ class TextParser(var input: String) {
 
     fun textToFunction(listOfWords: List<String>): String{
         when(listOfWords[0]){
-            "var" ->  {
-                return "var"
-            }
+            "var" -> return "var"
+
+            "print" -> return "print"
+
+            "if" -> return "if"
         }
         return "Error in TextToFunction"
     }

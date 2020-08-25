@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f61d777-b2df-4b79-b4d0-6e8fe0414725" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="7f61d777-b2df-4b79-b4d0-6e8fe0414725" name="Default Changelist" comment="Var command is mostly set. Print command outline is written.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyIf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyIf.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TextParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Testing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/Testing.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +61,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Scratch_v1" />
       <option name="PACKAGE_NAME" value="" />
@@ -153,7 +143,10 @@
       <updated>1597937226515</updated>
       <workItem from="1597937227829" duration="18041000" />
       <workItem from="1597966658515" duration="32000" />
-      <workItem from="1597966701460" duration="9937000" />
+      <workItem from="1597966701460" duration="10453000" />
+      <workItem from="1598215743362" duration="118000" />
+      <workItem from="1598236433158" duration="2292000" />
+      <workItem from="1598307009392" duration="4241000" />
     </task>
     <task id="LOCAL-00001" summary="Testing my print function">
       <created>1597947340415</created>
@@ -215,10 +208,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1009" y="530" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967290548" />
-    <state x="905" y="273" key="CommitChangelistDialog2" timestamp="1597972310420">
+    <state x="905" y="273" key="CommitChangelistDialog2" timestamp="1597978840745">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="905" y="273" key="CommitChangelistDialog2/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597972310420" />
+    <state x="905" y="273" key="CommitChangelistDialog2/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597978840745" />
     <state width="2517" height="495" key="GridCell.Tab.-1.bottom" timestamp="1597967582580">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -235,22 +228,26 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="2517" height="495" key="GridCell.Tab.-1.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597967582579" />
-    <state width="2517" height="495" key="GridCell.Tab.0.bottom" timestamp="1597977224716">
+    <state width="2517" height="495" key="GridCell.Tab.0.bottom" timestamp="1598313700571">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2517" height="495" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597977224716" />
-    <state width="2517" height="495" key="GridCell.Tab.0.center" timestamp="1597977224716">
+    <state width="2517" height="495" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597979232758" />
+    <state width="2517" height="495" key="GridCell.Tab.0.bottom/0.0.2560.1410/3640.0.1920.1080/-2560.0.2560.1440/2560.-496.1080.1920@0.0.2560.1410" timestamp="1598313700571" />
+    <state width="2517" height="495" key="GridCell.Tab.0.center" timestamp="1598313700570">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2517" height="495" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597977224716" />
-    <state width="2517" height="495" key="GridCell.Tab.0.left" timestamp="1597977224716">
+    <state width="2517" height="495" key="GridCell.Tab.0.center/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597979232757" />
+    <state width="2517" height="495" key="GridCell.Tab.0.center/0.0.2560.1410/3640.0.1920.1080/-2560.0.2560.1440/2560.-496.1080.1920@0.0.2560.1410" timestamp="1598313700570" />
+    <state width="2517" height="495" key="GridCell.Tab.0.left" timestamp="1598313700570">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2517" height="495" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597977224716" />
-    <state width="2517" height="495" key="GridCell.Tab.0.right" timestamp="1597977224716">
+    <state width="2517" height="495" key="GridCell.Tab.0.left/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597979232757" />
+    <state width="2517" height="495" key="GridCell.Tab.0.left/0.0.2560.1410/3640.0.1920.1080/-2560.0.2560.1440/2560.-496.1080.1920@0.0.2560.1410" timestamp="1598313700570" />
+    <state width="2517" height="495" key="GridCell.Tab.0.right" timestamp="1598313700570">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="2517" height="495" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597977224716" />
+    <state width="2517" height="495" key="GridCell.Tab.0.right/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597979232757" />
+    <state width="2517" height="495" key="GridCell.Tab.0.right/0.0.2560.1410/3640.0.1920.1080/-2560.0.2560.1440/2560.-496.1080.1920@0.0.2560.1410" timestamp="1598313700570" />
     <state width="2517" height="495" key="GridCell.Tab.1.bottom" timestamp="1597967577223">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -271,21 +268,11 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="872" y="437" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597972316426" />
-    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1597976544219">
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1598312518535">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/2560.-496.1080.1920/3640.0.1920.1080/-2560.0.2560.1440@0.0.2560.1410" timestamp="1597976544219" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/Main.kt</url>
-          <line>42</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/3640.0.1920.1080/-2560.0.2560.1440/2560.-496.1080.1920@0.0.2560.1410" timestamp="1598312518535" />
   </component>
   <component name="masterDetails">
     <states>

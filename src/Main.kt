@@ -4,15 +4,11 @@ import kotlin.system.exitProcess
 class Main() {
 
     val listOfFunctions = mutableListOf<MyFunctions>()
-    var functionCounter = 0
 
     val listOfVariables = mutableListOf<MyFunctions>()
-    var variableCounter = 0
-
     fun printToList(argument: String) {
         val myPrint = MyPrint(argument)
         listOfFunctions.add(myPrint)
-        functionCounter++
     }
 
     fun main() {
@@ -33,10 +29,12 @@ class Main() {
 
         while (input != "stop") {
             when (input) {
-                "var" -> {
-                    storeVar(rawInput)
-                }
-                "print" -> 
+                "var" -> {storeVar(rawInput)}
+
+                "print" -> {printValue(rawInput)}
+                
+                "if" -> {storeIf(rawInput)}
+
             }
 
 
@@ -45,6 +43,41 @@ class Main() {
         }
 
         print("Stopped\n")
+    }
+
+    private fun storeIf(rawInput: String) {
+        val firstVar = rawInput.split(" ")[1]
+        val operator = rawInput.split(" ")[2]
+        val secondVar = rawInput.split(" ")[3]
+
+        val myNewIf = MyIf(firstVar, operator, secondVar)
+
+        print(myNewIf.execute())
+
+    }
+
+    private fun printValue(rawInput: String) {
+        print(rawInput + "\n")
+        val varToSearchFor = rawInput.split(" ")[1]
+        print("searching for $varToSearchFor\n")
+
+        for (myVariable in listOfVariables) {
+            if (myVariable.toString() == varToSearchFor){
+                val myNewPrint = MyPrint(myVariable.toString())
+                listOfFunctions.add(myNewPrint)
+                myNewPrint.execute()
+                print("\n")
+                return
+            }
+        }
+
+        val myNewVar = MyVar(varToSearchFor)
+        val myNewPrint = MyPrint(myNewVar)
+
+        listOfFunctions.add(myNewPrint)
+        myNewPrint.execute()
+        print("\n")
+
     }
 
     private fun storeVar(rawInput: String) {
@@ -56,7 +89,6 @@ class Main() {
     }
 
     private fun storeVarUnit(data: String) {
-        print(data + "\n")
         val variable = MyVar(data)
         listOfVariables.add(variable)
     }
